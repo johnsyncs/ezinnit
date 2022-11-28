@@ -15,7 +15,7 @@ automatically deploy any commits to your main branch
 to your server, where your app is automatically built in a container 
 and served at your public https domain.
 
-Now you can develop apps that will deploy, because they're always deployed.
+Now you can develop apps that you know will deploy, because they're always deployed.
 
 ezinnit includes app templates for new django, flask and fastApi projects. 
 These templates are intended for starting completely new projects, and create a deployed, working site.
