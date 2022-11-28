@@ -37,10 +37,10 @@ bash ezinnit/ezinnit
 8. optional app template: django, flask or fastApi
 
 ### requirements:
-* a python virtual environment (with pip) with your app installed (or to make a django project from scratch, see bottom of readme)
+* a python virtual environment with your app installed (or to make a django project from scratch, see bottom of readme)
 * git
 * a gitlab account (gitlab.com accounts must be verified to use gitlab runners, but verification is free)
-* a server running Ubuntu 20.04 [how to create a digital ocean droplet](other/the_old_way/tutorials/digital_ocean_tutorial/create_digital_ocean_droplet.md)
+* a server running Ubuntu 22.04 or 20.04 [how to create a digital ocean droplet](other/the_old_way/tutorials/digital_ocean_tutorial/create_digital_ocean_droplet.md)
 * your local machine's ssh key registered on gitlab
 * your local machine's ssh key added to your new server's allowed hosts ([digital ocean tutorial](other/the_old_way/tutorials/digital_ocean_tutorial/create_digital_ocean_droplet.md))
 * for your domain to work, you need a DNS \"A\" record pointing your domain to your server ip address [(create the DNS \"A\" record before running ezinnit)](other/the_old_way/tutorials/link_to_gitlab_and_dokku/point_url_to_dokku_app.md)
