@@ -82,6 +82,7 @@ bash ezrun
  
 Use ezinnit whenever you start a new webapp project. At the push of a button, your project will begin with a gitlab repository that automatically deploys main commits to a container on the server of your choice, where your app is running and available at the domain of your choice.
 <br><br>You can now develop for the true environment your app is intended for with instant feedback about how changes will impact real world usability. You know instantly if your app will build in a container and how it will behave on a live server.
+<br><br>The secure production environment is the default, and development mode is the exception - making development safe.
 <br><br> When you start a project with ezinnit, you're really doing CICD. From day one, you hit the ground running with a live app on your own server on your own domain, so you can focus on what only you can do.
 ### to start a django project from scratch:
 
